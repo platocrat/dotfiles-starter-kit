@@ -1,0 +1,12 @@
+call plug#begin('~/.vim/plugged')
+
+" Fugitive Vim GithHub Wrapper
+Plug 'tpope/vim-fugitive'
+
+" Typescript Syntax and Indentation Support
+Plug 'leafgarland/typescript-vim'
+
+" Javascript Syntax and Indentation Support
+Plug 'pangloss/vim-javascript'
+
+call plug#end()
